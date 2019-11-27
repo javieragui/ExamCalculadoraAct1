@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnAdd"
+            android:text="ADD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_launcher_foreground"
+            />
+        <Button
+            android:id="@+id/btnSub"
+            android:text="SUB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnDiv"
+            android:text="DIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnMul"
+            android:text="MUL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/result"
+        android:text="00.00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/par"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAR" />
+        <RadioButton android:id="@+id/inpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INPAR" />
+    </RadioGroup>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <Button
+        android:id="@+id/MC"
+        android:text="MC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#336eff"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/MR"
+        android:text="MR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#336eff"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/M-"
+        android:text="M-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#336eff"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/Mas"
+        android:text="M+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#336eff"
+        android:textColor="#ffffff"/>
+</LinearLayout>
+</LinearLayout>
